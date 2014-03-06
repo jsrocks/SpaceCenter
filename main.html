@@ -1,0 +1,23 @@
+<html>
+<head>
+<script>document.write("<title>"+window.location.toString().split("?")[1].split("&")[0]+"</title>")</script>
+<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+<center>
+<img src="Starfleet_Logo.jpg" height="450" width="600">
+<br>
+<!--Ship Name generator-->
+<img src="" id="name">
+<script>
+ship = window.location.toString().split("?")[1].split("&")[0]
+document.getElementById("name").src = window.location.toString().split("?")[1].split("&")[0] + ".png"
+</script>
+<!--end-->
+<div id="login">
+<input type="text" id="logint"><br>
+<input type="button" id="loginb" value="LOGIN">
+</div>
+</center>
+</body>
+</html>

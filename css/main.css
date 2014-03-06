@@ -1,0 +1,16 @@
+body {
+overflow: hidden;
+background-color: black;
+}
+#logint {
+background: transparent;
+color: white;
+text-transform: uppercase;
+border: solid 5px white;
+}
+#loginb {
+border-radius: 15%;
+border: solid 5px white;
+background: transparent;
+color: white;
+}
